@@ -1,0 +1,96 @@
+.fifc-wrapper{
+    margin-top: 197px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 0px;
+    .fifth-flex-wrapper{
+      justify-content:space-between;
+     .fifth-title-wrapper{
+        h3{
+          margin-top: 0px;
+          font-weight: bold;
+          font-size: 24px;
+          line-height: 33px;
+          text-transform: uppercase;
+          color: $color-main-bright;
+        }
+        h2{
+          margin-top: 17px;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 41px;
+          line-height: 110%;
+          text-transform: uppercase;
+          color: $color-main-background;
+        }
+      }
+      .arrow-buttons-wrapper{
+        a
+        .arrow{
+          // background-color: red;
+          display: grid;
+          align-items: center;
+          justify-content: center;
+          padding:0px;
+          width: 75px;
+          height: 75px;
+          margin-left: 20px;
+          border-radius: 50px;
+          .svg-arrow-fill{ 
+            fill: $color-main-background;
+          }
+          &:hover{
+            background: linear-gradient(102.3deg, $color-main-background -4.62%, #6ADD6A 178.22%);
+            .svg-arrow-fill{
+              fill: #FFFFFF;
+              box-shadow: 0px 12px 40px rgba(0, 0, 0, 0.06);
+            }
+          }   
+        } 
+      }
+    }
+    .fifth-carousel-wrapper{
+      margin-top: 50px;
+      display: grid;
+      grid-template-columns: 360px 360px 360px;
+      gap: 3.5%;
+      border-radius: 8px;
+      .fifth-card-wrapper{
+        background: linear-gradient(358.27deg, rgba(100, 123, 100, 0.77) -118.86%, rgba(100, 123, 100, 0) 25.62%, rgba(100, 123, 100, 0) 98.53%), #ffffff;
+        border-radius: 8px;
+        padding: 9%;
+        .card-flex-wrapper{
+          .fift-foto{
+            padding: 0px;
+            .foto{
+              height: 268px;
+            }
+          }
+          .fifth-name{
+            h4{
+              margin-top: 18px;
+              margin-bottom: 0px;
+              font-weight: bold;
+              font-size: 16px;
+              line-height: 116%;
+              color: $color-h1;
+            }
+            p{
+              margin-top: 5px;
+              font-size: 13px;
+              line-height: 132%;
+              letter-spacing: 0.5px;
+              color: $color-gray2;
+            }
+          }
+        }
+        p{
+          margin-top: 24px;
+          font-style: italic;
+          font-size: 16px;
+          line-height: 132%;
+          letter-spacing: 0.4px;
+        }
+      }
+    }
+  }

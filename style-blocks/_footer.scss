@@ -1,0 +1,111 @@
+footer{
+    ul{
+      margin-top: 24px;
+      padding-left: 0px;
+      li{
+        list-style-type: none;
+        margin-bottom: 12px;
+        line-height: 26px;
+        font-size: 16px;
+        a{
+          text-decoration:none;
+          color: $color-h1;
+          &:hover {
+            color: $color-main-bright;
+          }
+        }
+      }
+    }
+    margin-top: 172px;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-bottom: 0px;
+    background-color: $color-footer;
+    padding: 100px 140px 97px 140px;
+    display: grid;
+    grid-template-columns: 3fr 2fr 2fr 3fr;
+    gap: 7%;
+    .footer-column1-wrapper{
+      .footer-logo-wrapper{
+        align-items: center;
+        .ui{
+          padding-left: 10px;
+        }
+      }
+      p{
+        font-size: 14px;
+        letter-spacing: 0.5px;
+        color: $color-gray2;
+      }
+      .text{
+        margin-top: 16px;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+        line-height: 132%;
+      }
+      .copy{
+        margin-top: 16px;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+        line-height: 24px;
+      }
+      .rights{
+        margin-top: 8px;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+        line-height: 24px;
+      }
+      .footer-social-wrappper{
+        margin-top: 19px;
+        justify-content: space-around;
+        width: 195px;
+      }
+  
+  
+    }
+    .footer-column2-wrapper{
+      h3{
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 30px;
+        color: $color-main-background;
+        margin: 0px;
+      }
+    }
+    .footer-column3-wrapper{
+      h3{
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 30px;
+        color: $color-main-background;
+        margin: 0px;
+      }
+    }
+    .footer-column4-wrapper{
+      h3{
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 30px;
+        color: $color-main-background;
+        margin: 0px;
+      }
+      .textarea{
+        padding: 10px 20px;
+        margin-top: 13px;
+        border: none;
+        border-radius: 2px;
+        font-size: 14px;
+        line-height: 24px;
+        width: 100%;
+        height: 113px;
+        resize: none;
+        margin-bottom: 28px;
+      }
+      .button4{
+        padding: 21px 22px 22px 20px;
+        img{
+          padding-left: 54px;
+        }
+      }
+    }
+  }

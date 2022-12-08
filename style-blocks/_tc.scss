@@ -1,0 +1,96 @@
+.tc-wrapper{
+    margin-top: 107px;
+    margin-left: 10%;
+    margin-right: 10%;
+    // background-color: red;
+    h3{
+      font-weight: bold;    
+      text-align: center;
+      margin-bottom: 0px;
+      font-size: 24px;
+      line-height: 33px;
+      text-transform:uppercase;
+      color: $color-main-bright;
+    }
+    h2{
+      text-align: center;
+      margin-top: 17px;
+      margin-bottom: 0px;
+      font-weight: 600;
+      font-size: 41px;
+      line-height: 110%;
+      text-transform: uppercase;
+      color: $color-main-background;
+    }
+    .carousel-wrapper{
+      position: relative;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 3.5%;
+      margin-top: 56px;
+      .dot-image{
+        position: absolute;
+        left: -40px;
+        bottom: -40px;
+      }
+      .third-background-gradient{
+        position: absolute;
+        right: -145px;
+        bottom: -50px;
+        width: 345px;
+        height: 182px;
+        background: linear-gradient(197.92deg, rgba(239, 128, 49, 0) -227.37%, rgba(239, 128, 49, 0.15) 1.58%, rgba(239, 128, 49, 0) 103.02%);
+        border-radius: 8px;
+        transform: rotate(180deg);
+      }
+      .carousel-card-wrapper{
+        z-index: 1;
+        border-radius: 8px;
+        padding: 50px;
+        background: linear-gradient(358.27deg, rgba(100, 123, 100, 0.77) -118.86%, rgba(100, 123, 100, 0) 25.62%, rgba(100, 123, 100, 0) 98.53%), #FFFFFF;
+        color:$color-main-background;
+        transition: 1s;
+        .carousel-pic-wrapper{
+          margin-top: 36px;
+          width: 55px;
+          height: 55px;
+          .carousel-logos{
+            fill: $color-main-background;
+            transition: 1s;
+          }
+        }
+        h3{
+          color: $color-h1;
+        }
+        &:hover{
+          background-color:$color-main-background;
+          h3{
+            color: #FFFFFF;
+          }
+          p{
+            color: #FFFFFF;
+          }
+          .carousel-logos{
+            fill: #FFFFFF;
+          }
+        }
+        h3{
+          margin-top: 29px;
+          text-align: left;
+          font-weight: bold;
+          font-size: 24px;
+          line-height: 116%;
+          transition: 1s;
+        }
+        p{
+          margin-top: 6px;
+          font-weight: bold;
+          font-size: 16px;
+          line-height: 132%;
+          letter-spacing: 0.5px;
+          transition: 1s;
+        }
+      }
+    }
+  
+  } 

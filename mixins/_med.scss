@@ -1,0 +1,248 @@
+@include med{
+    .nav{
+      font-size: 10px;
+      .logo-wrapper{
+        .logo-au{
+          width: 45px;
+        }
+        .logo-ui{
+          width: 85px;
+        }
+  
+      }
+      .nav-wrapper{
+        font-size: 10px;
+      }
+      .button-wrapper{
+        .button-register{
+          padding: 5px 10px;
+        }
+      }
+      
+    }
+    .mc-wrapper{
+      .h1-wrapper{
+        h1{
+          font-size: 24px;
+        }
+        p{
+          font-size: 10px;
+        }
+        .bg-elipse{
+          width: 49px;
+        }
+  
+      }
+      .bg-tennis-wrapper{
+        .bg-tennis{
+          width: 165px;
+        }
+      }
+    }
+    .sc-wrapper{
+      .sc-tittle-wrapper{
+        .background-block{
+          width: 400px;
+          height: 68px;
+        }
+        h3{
+          margin-top: 10px;
+          font-size: 13px;
+        }
+        h2{
+          margin-top: 5px;
+          font-size: 20px;
+        }
+        p{
+          font-size: 10px;
+        }
+      }
+      .rent-cards-wrapper{
+        margin-top: 72px;
+        .rent-card{
+          .rent-card-wrapper{
+            padding: 22px;
+            .rent-card-icon-wrap{
+              width: 25px;
+              height: 25px;
+              .rent-icons{
+                width: 10px;
+                height: 10px;
+              }
+            }
+            h3{
+              font-size: 12px;   
+            }
+            p{
+              font-size: 8px;
+            }
+          }
+        }
+      }
+    }
+    .tc-wrapper{
+      position: relative;
+      h3{
+        font-size: 13px;
+        line-height: 17px;
+      }
+      h2{
+        margin-top: 10px;
+        line-height: 22px;
+        font-size: 20px;
+      }
+      .carousel-wrapper{
+        grid-template-columns: 157px 157px 157px;
+        .dot-image{
+          width: 105px;
+          height: auto;
+          
+          left: -20px;
+          bottom: -20px;
+        }
+        .third-background-gradient{
+          right: -85px;
+          bottom: -25px;
+          width: 180px;
+          height: 82px;
+          background: linear-gradient(197.92deg, rgba(239, 128, 49, 0) -227.37%, rgba(239, 128, 49, 0.15) 1.58%, rgba(239, 128, 49, 0) 103.02%);
+          border-radius: 8px;
+          transform: rotate(180deg);
+        }
+        .carousel-card-wrapper{
+          padding: 36px 25px;
+          .carousel-pic-wrapper{
+            margin-top: 0px;
+            width: 19px;
+            height: auto;
+            .carousel-logos{
+              width: 19px;
+              height: auto;
+            }
+          }
+          h3{
+            margin-top: 12px;
+            font-size: 10px;
+          }
+          p{
+            font-size: 8px;
+            margin-bottom: 0px;
+          }
+        }
+      }
+    }
+    .fc-wrapper{
+      margin-top: 89px;
+      .fourth-flex{
+        .text-wrap{
+          width: 258px;
+          padding-top: 45px;
+          margin-left: 85px;
+          h3{
+            font-size: 13px;
+          }
+          h2{
+            margin-top: 8px;
+            font-size: 22px;
+          }
+          p{
+            margin-top: 16px;
+            font-size: 10px;
+            margin-bottom: 24px;
+          }
+        }
+        .foto-wrap{
+          width: 286px;
+          img.foto{
+            width: 286px;
+          }
+          .foto-shadow{
+            width: 286px;
+            height: 286px;
+            left: 30px;
+            top: 30px;
+          }
+        }
+      }
+    }
+    .fifc-wrapper{
+      margin-top: 80px;
+      .fifth-flex-wrapper{
+       .fifth-title-wrapper{
+          h3{
+            font-size: 13px;
+            line-height: 18px;
+            margin-bottom: 0px;
+          }
+          h2{
+            margin-top: 8px;
+            font-size: 22px;
+            line-height: 110%;
+          }
+        }
+        .arrow-buttons-wrapper{  
+          display: none;
+        }
+      }
+      .fifth-carousel-wrapper{
+        grid-template-columns: 241px 241px 241px;
+        .fifth-card-wrapper{
+          .card-flex-wrapper{
+            .fift-foto{
+              padding: 0px;
+              .foto{
+                height: 173px;
+              }
+            }
+            .fifth-name{
+              h4{
+                font-size: 12px;
+              }
+              p{
+                font-size: 10px;
+              }
+            }
+          }
+          p{
+            font-size: 12px;
+          }
+        }
+      }
+    }
+    .button-style{
+      font-size: 10px;
+      padding-left: 15px;
+      img{
+        padding-right: 11px;
+        height: 11px;
+      }
+      &.button2{
+        height: 36px;
+        width: 176px;
+      }
+      &.button3{
+        height: 41px;
+        width: 195px;
+      }
+      &.button4{
+        height: 41px;
+        width: 195px;
+      }
+    }
+    .button5{
+      font-size: 13px;
+      padding-left: 15px;
+      height: 56px;
+      width: 300px;
+      margin-right: 0px;
+      margin-bottom: 40px;
+      img{
+        padding-right: 22px;
+        height: 13px;
+      }
+    }
+    footer{
+      padding: 40px 32px 40px 32px;
+    }
+  
+  }

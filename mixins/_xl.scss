@@ -1,0 +1,28 @@
+@include xl{
+    .sc-wrapper{
+      grid-template-columns: 1fr;
+    }
+    footer{
+      justify-items: stretch;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+      grid-template-areas: 
+                          "logo logo"
+                          "list1 list2"
+                        "textbox textbox";
+      .footer-column1-wrapper{
+        grid-area: logo;
+      }
+      .footer-column2-wrapper{
+        grid-area: list1;
+      }
+      .footer-column3-wrapper{
+        grid-area: list2;
+      }
+      .footer-column4-wrapper{
+        grid-area: textbox ;
+        
+  
+      }
+    }
+  }

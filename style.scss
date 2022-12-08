@@ -1,0 +1,46 @@
+@mixin xl {
+  @media screen and (max-width: 1099px){
+    @content;
+  }
+}
+
+@mixin med {
+  @media screen and (max-width: 576px){
+    @content;
+  }
+}
+
+@font-face {
+  font-family: "AvenirNextLTPro-Regular";
+  src: url("Font/AvenirNextLTPro-Regular.otf");
+}
+@import 'SCSS/_color.scss';
+@import 'SCSS/_page-format.scss';
+// remade have not tested
+@import 'SCSS/_buttons.scss';
+
+
+@import './style-blocks/_nav.scss';
+
+@import './style-blocks/_mc.scss';
+
+@import './style-blocks/_sc.scss';
+
+@import './style-blocks/_tc.scss';
+//  REMAKE original code in paskaitos/ZZZZ folder
+@import './style-blocks/_fc.scss';
+
+@import './style-blocks/_fifc.scss';
+
+@import './style-blocks/_footer.scss';
+
+@import 'mixins/_xl.scss';
+@import 'mixins/_med.scss';
+
+
+
+
+// h 48-24
+// h 41/45-36/58
+
+

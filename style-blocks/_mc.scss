@@ -1,0 +1,41 @@
+.mc-wrapper{
+    padding-left: 12%;
+    padding-right: 12%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    .h1-wrapper{
+      grid-column: 1 / 2;
+      position: relative;
+      margin-top: 16%;
+      width: 100%;
+      h1{
+        font-size: 48px;
+        font-weight: bold;
+        color: $color-h1;
+      }
+      p{
+        color: $color-gray2;
+        font-size: 20px;
+        font-weight: normal;
+      }
+      .bg-elipse{
+        position: absolute;
+        top: -15px;
+        left: 140px;
+      }
+      .bg-elipse2{
+        position: absolute;
+        left: -170px;
+        top: 310px;
+      }
+    }
+    .bg-tennis-wrapper{
+      grid-column: 2 / 3;
+      position: relative;
+      .bg-tennis{
+        position: absolute;
+        top: 0%;
+        left: 38%;
+      }
+    }
+  }
